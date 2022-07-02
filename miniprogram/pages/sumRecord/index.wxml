@@ -1,0 +1,15 @@
+<view>
+<view class="top">
+    <image class="img1" mode="widthFix" src="../../images/QQ图片20220627211018.png"></image></view>
+  
+  <view class="mowei">
+ 
+  <view class="button1" bindtap="danx">选择题</view>
+  <view class="button1" bindtap="tianko">填空题</view>
+  </view>
+  <view class="mowei">
+  <view class="button1" bindtap="">主观题</view>
+  <view class="button1" bindtap="">智能组卷</view>
+  </view>
+  <cloud-tip-modal showUploadTipProps="{{showUploadTip}}"></cloud-tip-modal>
+</view>

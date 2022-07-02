@@ -1,0 +1,63 @@
+page {
+  background-color: white;
+}
+.title {
+  margin-top: 16px;
+  font-size: 17px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #000000;
+}
+
+.info {
+  margin-top: 12px;
+  font-size: 17px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #000000;
+}
+.user{
+    width: 90%;
+    height: 180rpx;
+    margin-top: 30rpx;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: 4rpx solid #437dd4;
+    border-radius: 10rpx;
+}
+.userinfo{
+    height: 100%;
+    display:flex;
+}
+.userinfo-avater{
+    height: 130rpx;
+    width: 130rpx;
+    margin-left: 30rpx;
+    margin-top: 20rpx;
+    border-radius: 50%;
+}
+.userinfo-nickname{
+    height: 100%;
+    width: 300rpx;
+    color: #000000;
+    font-size: 35rpx;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    margin-left: 20rpx;
+}
+.button{
+    background-color:rgb(147 179 249);
+    font-size: medium;
+    color: white;
+    width: 80%;
+}
+.bottom-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 250rpx;
+}
+.button-click{
+    text-decoration: underline;
+}
