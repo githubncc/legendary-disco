@@ -1,0 +1,30 @@
+
+.container_3{
+    height: 800px;
+  }
+  
+  .wordsty{
+    font-size: 18px;
+}
+
+.item{
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  text-decoration-style: solid;
+  font-size: 26px;
+  letter-spacing: 10px;
+}
+   
+  swiper-item:nth-child(1) .item{
+    background-color: burlywood;
+  }
+  swiper-item:nth-child(2) .item{
+    background-color: rgb(166, 225, 233);
+  }
+  swiper-item:nth-child(3) .item{
+    background-color: pink;
+  }
+  swiper-item:nth-child(4) .item{
+    background-color: rgb(147, 214, 188);
+  }

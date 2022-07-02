@@ -1,6 +1,6 @@
 // index.js
 // const app = getApp()
-
+// const { envList } = require('../../envList.js');
 
 Page({
   data: {
@@ -11,29 +11,33 @@ Page({
       showItem: false,
       item: [{
         title: '第一单元',
-        page: 'getOpenId'
+        page: 'Learnunitone'
       },
       //  {
       //   title: '微信支付'
       // },
        {
         title: '第二单元',
-        page: 'getMiniProgramCode'
+        page: 'Learnunittwo'
       },
       // {
       //   title: '发送订阅消息',
       // }
       {
         title: '第三单元',
-        page: 'getMiniProgramCode'
+        page: 'Learnunitthree'
       },
       {
         title: '第四单元',
-        page: 'getMiniProgramCode'
+        page: 'Learnunitfour'
       },
       {
         title: '第五单元',
-        page: 'getMiniProgramCode'
+        page: 'Learnunitfive'
+      },
+      {
+        title: '第六单元',
+        page: 'Learnunitsix'
       },
     ]
     }, {
@@ -70,6 +74,9 @@ Page({
       tip: ' ',
       showItem: false,
     }],
+    // envList,
+    // selectedEnv: envList[0],
+    // haveCreateCollection: false
   },
 
   onClickPowerInfo(e) {
@@ -114,7 +121,7 @@ Page({
 
   jumpPage(e) {
     wx.navigateTo({
-      url: `/pages/${e.currentTarget.dataset.page}/index?envId=${this.data.selectedEnv.envId}`,
+      url: `/pages/${e.currentTarget.dataset.page}/index?`,
     });
   },
 

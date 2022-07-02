@@ -1,0 +1,44 @@
+<swiper class="container_3" indicator-dots>
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《咏柳》\n  唐·贺知章\n碧玉妆成—树高，\n万条垂下绿丝绦。\n不知细叶谁裁出，\n二月春风似剪刀。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  高高的柳树长满了翠绿的新叶，轻柔的柳枝垂下来，就像万条轻轻飘动的绿色丝带。这细细的嫩叶是谁的巧手裁剪出来的呢?原来是那二月里温暖的春风，它就像—把灵巧的剪刀。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  碧玉：这里用以比喻春天的嫩绿的柳叶。\n  丝绦：这里用以形容随风飘排的柳枝。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  这是一首咏物诗，通过赞美柳树，表达了诗人对春天的无限热爱。诗的首句写高高的柳树像是碧玉妆饰成，用“碧玉”形容柳树的翠绿晶莹，突出它的颜色美。第二句写下垂披拂的柳枝犹如丝带万千条，突出它的轻柔美。第三句写柳叶，突出柳叶精巧细致的形态美。柳叶是自然活力的象征，是春的创造力的象征。这首诗就是通过赞美柳树，进而赞美春天，讴歌春的无限创造力。\n</text>
+</view>
+</swiper-item>
+ 
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《绝句》\n  唐·杜甫\n两个黄鹂鸣翠柳，\n一行白鹭上青天。\n窗含西岭千秋雪，\n门泊东吴万里船。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  两只黄鹂在翠绿的柳树间婉转地歌唱，一队整齐的白鹭直冲向蔚蓝的天空。我坐在窗前，可以望见西岭上堆积着终年不化的积雪，门门前停泊着自万里外的东吴远行而来的船只。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  千秋雪:指西岭雪山上千年不化的积雪。\n  万里船：不远万里开来的船敏\n  东吴：古时候吴国的领地，江苏省一带。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  诗人在成都浣花溪堂描写草堂明媚的春天的景色，从一个泊字也能感受诗人一生漂沪的孤独感，后两句有隐含诗人心忧天下的大情怀!\n</text>
+</view>
+</swiper-item>
+ 
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《所见》\n  清·袁枚\n牧童骑黄牛，\n歌声振林樾。\n意欲捕鸣蝉，\n忽然闭口立。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  牧童骑在黄牛背上，嘹亮的歌声在林中回荡。忽然想要捕捉树上鸣叫的知了,就马上停止唱歌，一声不响地站立在树下。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  牧童：指放牛的孩子。\n  振：振荡。说明牧童的歌声嘹亮。\n  林樾：指道旁成阴的树。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  这首诗描写了生活中的一个小小细节，大声歌唱表现的是童心的自由自在，随后的闭口不
+言也是由于童心所致。 寥寥数语，不仅描绘了儿童瞬间的神态变化，刻画出一个活泼可爱的象，而且使整首诗充满情趣，很有韵味。\n</text>
+</view>
+</swiper-item>
+ 
+ 
+
+</swiper>

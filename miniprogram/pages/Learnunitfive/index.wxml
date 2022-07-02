@@ -1,0 +1,41 @@
+<swiper class="container_3" indicator-dots>
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《泊船瓜洲》\n  唐·王安石\n京口瓜洲—水间，\n钟山只隔数重山。\n春风又绿江南岸，\n明月何时照我还。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  京口和瓜洲不过一水之遥，钟山也只隔着几重青山。温柔的春风又吹绿了大江南岸，可是，天上的明月呀，你什么时候才能够照着我回家呢?\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  泊船：停船。泊，停泊，指停泊靠岸。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  这首七绝触景生情，通过对春天景物的描绘，表现了诗人此番出来做官的无奈和欲急切回归江宁的愿望。头两句记叙北上的行程。诗人前往京城，却偏偏回首江宁，表现不愿赴任的复杂心理。后两句以景写心，既有变法给自己带来的欣慰，也有及早功成身退的想法。这首诗不仅借景抒情，情寓于景，而且叙事也富有情致，境界开阔，格调清新。\n</text>
+</view>
+</swiper-item>
+ 
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《长相思》\n  清·纳兰性德\n山一程，水一程，\n身向榆关那畔行，\n夜深千帐灯。\n风一更，雪一更，\n聒碎乡心梦不成，\n故园无此声。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  跋山涉水走过一程又一程，将士们马不停蹄地向着山海关进发。夜已经深了，千万个帐篷里都点起了灯。帐篷外风声不断，雪花不住，嘈杂的声音打碎了思乡的梦，想到远隔千里的家乡没有这样的声音啊。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  那畔: 即山海关的另一边，指身处关外。 \n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  上片描写出旅程的艰难曲折，遥远漫长。词人在这里强调的是“身”向榆关，那也就暗示出“心”向京师，它使读者想到词人留恋家园，频频回首，步履蹒跚的情况。借描述周围的情况而写心情，实际是表达词人对故乡的深深依恋和怀念。\n</text>
+</view>
+</swiper-item>
+ 
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《己亥杂诗》\n  清·龚自珍\n九州生气恃风雷，\n万马齐喑究可哀。\n我劝天公重抖擞，\n不拘一格降人才。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  只有狂雷炸响般的巨大力量才能使中国大地发出勃勃生机，然而朝野臣民噤口不言终究是一种悲哀。我奉劝天帝能重新振作精神，不要拘守一定规格降下更多的人才。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  生气：生气勃勃的局面。\n  万马齐喑：比喻社会政局毫无生气。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  这是一首出色的政治诗。全诗层次清晰，共分三个层次:第一层，写了万马齐喑，朝野噤声的死气沉沉的现实社会。第二层，作者指出了要改变这种沉闷，腐朽的观状，就必须依靠风雷激荡般的巨大力量。第三层，作者认为这样的力量来源于人材，而朝庭所应该做的就是破格荐用人材，只有这样，国家才有希望。诗的前两句用了两个比喻，写出了诗人对当时中国形势的看法。诗的后两句是传诵的名句。\n</text>
+</view>
+</swiper-item>
+
+</swiper>

@@ -1,0 +1,41 @@
+<swiper class="container_3" indicator-dots>
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《采薇》\n  秦·佚名 \n昔我往矣，杨柳依依。\n今我来思，雨雪霍露。\n行道迟迟，载渴载饥。\n我心悲伤，莫知我哀。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  回想当初出征时，杨柳依依随风吹;如今回来路途中，大雪纷纷满天飞。道路泥泞难行走，又渴又饥真劳累。满心伤感满腔悲。我的哀痛谁体会。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  思：语气助词。\n  霸靠：雪花飞舞的样子。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  全诗以动人的自然景物的描写薇之生，薇之柔，薇之刚，棠棣花开，依依杨柳，霍霍雨雪，都烘托了军士们“日戒”的生活，心里却是思归的情愫，这里写的都是将士们真真实实的思想，忧伤的情调并不降低本篇作为爱国诗篇的价值，恰恰相反是表现了人们的纯真朴实，合情合理的思想内容和情感，也正是这种纯正的真实性，赋予了这首诗强盛的生命力和感染力。\n</text>
+</view>
+</swiper-item>
+ 
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《鸟鸣涧》\n  唐·王维 \n人闲桂花落，\n夜静春山空。\n月出惊山鸟，\n时鸣春涧中。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  春天的夜晚十分寂静，听得见桂花掉落的声音。月亮出来了，惊动了正在栖息的小鸟，时而在深山里鸣叫。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  鸟鸣涧：鸟儿在山涧中鸣叫。\n  闲：安静、悠闲，含有人声寂静的意思。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  《鸟鸣涧》该诗是王维题友人皇甫岳所居的云溪别墅所写的组诗《皇甫岳云溪杂题五首》之首。五 首诗每一首写一处风景,接近于风景写生，而不同于一般的写意画，或许是一处景点。《鸟鸣涧》，侧重于表现夜间春山的宁静幽美。《鸟鸣涧》中，不仅可以看到春山由明月、落花、鸟鸣所点缀的那样一种迷人的环境，而且还能感受到盛唐时代和平安定的社会气氛。\n</text>
+</view>
+</swiper-item>
+ 
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《天净沙 ·秋》\n  元·白朴 \n孤村落日残霞，\n轻烟老树寒鸦，\n一点飞鸿影下。\n青山绿水，白草红叶黄花。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  太阳渐渐西沉，已衔着西山了,天边的晚霞也逐渐开始消散，只残留有几分黯淡的色彩，映照着远处安静的村庄是多么的孤寂，拖出那长长的影子。雾淡淡飘起，几只乌黑的乌鸦栖息在佝偻的老树上，远处的一只大雁飞掠而下，划过天际。山清水秀;霜白的小草、火红的 枫叶、金黄的花朵，在风中一齐摇曳着，颜色几尽妖艳。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  白草：枯萎而不凋谢的白草。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  此曲题目虽为“秋”，并且写尽秋意，却找不着一个“秋”字。此曲开篇先绘出了一幅秋日黄昏图，营造出一种宁静、寂寥的氛围，再以名词并列组合的形式，选取典型的秋天景物，由远及近，描绘出一幅色彩绚丽的秋景图。秋景也由先前的萧瑟、寂寥变为明朗、清丽了。\n</text>
+</view>
+</swiper-item>
+
+</swiper>

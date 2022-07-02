@@ -1,6 +1,12 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/Learnunitone/index",
+    "pages/Learnunittwo/index",
+    "pages/Learnunitthree/index",
+    "pages/Learnunitfour/index",
+    "pages/Learnunitfive/index",
+    "pages/Learnunitsix/index",
     "pages/sumRecord/index",
     "pages/createCollection/index",
     "pages/danx/danx",

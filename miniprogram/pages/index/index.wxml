@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
 
-  <view class="title">幼儿启蒙助手</view>
+  <view class="title">小学生诗词学堂</view>
 
   <view class="top_tip"> </view>
 

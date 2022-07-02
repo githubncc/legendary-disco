@@ -1,0 +1,43 @@
+<swiper class="container_3" indicator-dots>
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《题西林壁》\n  宋·苏轼\n横看成岭侧成峰，\n远近高低各不同。\n不识庐山真面目，\n只缘身在此山中。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  从正面、侧面看庐山山岭连绵起伏、山峰耸立，从远处、近处、高处、低处看庐山，庐山呈现各种不同的样子。我之所以认不清庐山真正的面目，是因为我人身处在庐山之中。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  横看：从正面看。庐山总是南北走向，横看就是从东面西面看。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  这首诗寓意十分深刻，但所用的语言却异常浅显。深入浅出，这正是苏轼的一种语言特色。诗人在四句诗中，概括地描绘了庐山的形象的特征，同时又准确地指出看山不得要领的道理。鲜明的感性与明晰的理性交织一起，互为因果，诗的形象因此升华为理性王国里的典型，这就是人们为什么千百次的把后两句当作哲理的警句的原因。\n</text>
+</view>
+</swiper-item>
+ 
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《暮江吟》\n  唐·白居易\n一道残阳铺水中，\n半江瑟瑟半江红。\n可怜九月初三夜，\n露似真珠月似弓。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  快要落山的夕阳,霞光柔和的铺在江水上,江水一半碧绿, 一半艳红。最可爱的是那九月初三之夜，露珠似颗颗任珠，朗朗新月形如弯弓。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  真珠：即珍珠。\n  月似弓：农历九月初三，上弦月，其弯如弓。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  前两句写夕阳落照中的江水。“一道残阳铺水中”, 残阳照射在江面上，不说“照”,却说“铺”，这是因为“残阳”已经接近地平线，几乎是贴着地面照射过来，确像“铺”在江上,很形象;后两句写新月初升的夜景。诗人流连忘返，直到初月升起，凉露下降的时候,眼前呈现出一片更为美好的境界。诗人俯身一看，江边的草地上挂满了晶莹的露珠。\n</text>
+</view>
+</swiper-item>
+ 
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《望天门山》\n  唐·李白\n天门中断楚江开，\n碧水东流至此回。\n两岸青山相对出，\n孤帆一片日边来。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  长江犹如巨斧劈开天门雄峰，碧绿江水东流到此回旋澎湃。两岸青山对峙美景难分高下，遇见一叶孤舟悠悠来自天边。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  中断：江水从中间隔断两山。\n  两岸青山：分别指东梁山和西梁山。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  这首诗写了碧水青山，白帆红日，交映成一幅色彩绚丽的画面。但这画面不是静止的，而是流动的。随着诗人行舟，山断江开，东流水回，青山相对迎出，孤帆日边驶来。景色由远及近再及远地展开。诗中用了六个动词“断、开、流、回、出、来”，山水景物呈现出跃跃欲出的动态，描绘了天门山一带的雄奇阔远。一、二句写出了天门山水雄奇险峻不可阻遏的气势，给人惊心动魄之感。三、四句把浑阔茫远的水势，写足了，写活了。\n</text>
+</view>
+</swiper-item>
+ 
+ 
+
+</swiper>

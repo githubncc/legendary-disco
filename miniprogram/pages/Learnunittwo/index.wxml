@@ -1,0 +1,42 @@
+<swiper class="container_3" indicator-dots>
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《望庐山瀑布》\n  唐·李白\n日照香炉生紫烟，\n遥看瀑布挂前川。\n飞流直下三千尺，\n疑是银河落九天。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  香炉峰在阳光的照射下生起紫色烟霞，远远望见瀑布似白色绢绸悬挂在山前。高崖上飞腾直落的瀑布好像有几千尺，让人恍惚以为银河从天上泻落到人间。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  香炉：指香炉峰。\n  紫烟：指日光透过云雾，远望如紫色的烟云。孟浩然《彭蠡湖中望庐山》：“香炉初上日，瀑布喷成虹。”“日照”二句：一作“庐山上与星斗连，日照香炉生紫烟”。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  这首诗极其成功地运用了比喻、夸张和想象，构思奇特，语言生动形象、洗炼明快。苏东坡十分赞赏这首诗，说“帝遣银河一脉垂，古来唯有谪仙词”。“谪仙”就是李白。《望庐山瀑布》的确是状物写景和抒情的范例。\n</text>
+</view>
+</swiper-item>
+ 
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《小儿垂钓》\n  唐·胡令能\n蓬头稚子学垂纶，\n侧坐莓苔草映身。\n路人借问遥招手，\n怕得鱼惊不应人。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  一个头发蓬乱、面孔青嫩的小孩在河边学钓鱼,侧身坐在青苔上绿草映衬着他的身影。听到有过路的人问路小孩漠不关心地摆了摆手不敢回应路人生怕惊动了鱼儿。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  蓬头：形容小孩可爱。\n  垂纶：钓鱼。\n  应：回应,答应,理睬。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  《小儿垂钓》是一首以儿童生活为题材的诗作,诗写一"蓬头稚子”学钓鱼,”侧坐莓苔草映身”,路人向小儿招手,想借问打听一些事情,那小儿却“怕得鱼惊 不应人”,真是活灵活现、惟妙惟肖, 形神蒹备,意趣盎然。诗中没有绚丽的色彩,没有刻意的雕饰,就似一枝清丽的出水芙蓉,在平淡浅易的叙述中透露出几分纯真、无限童趣和一些专注。此诗不失为一篇情景交融、形神兼备的描写儿童的佳作。\n</text>
+</view>
+</swiper-item>
+ 
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《梅花》\n  宋·王安石\n墙角数枝梅，\n凌寒独自开。\n遥知不是雪，\n为有暗香来。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  墙角有几枝梅花，正冒着严寒独自盛开。远远的就知道洁白的梅花不是雪，因为有梅花的幽香传来。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  暗香：指梅花的幽香。\n  知：知道。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  前两句“墙角”这个环境突出了数枝梅身居简陋，孤芳自开的形态。“ 独自开”，突出梅花不畏寒，不从众，虽在无人偏僻的地方，仍然凌寒而开，写的是梅花的品质，又像写人品。“独自”，语意刚强，在恶劣的环境中，依旧屹立不倒。体现出诗人坚持自我的信念。后两句，重点放在梅花的幽香上，“遥知”说明香从老远飘来，淡淡的，不明显。诗人嗅觉灵敏，独具慧眼，善于发现。“不是雪”，不说梅花，而梅花的洁白可见。“暗香”指的是梅花的香气，以梅拟人，凌寒独开，喻典品格高贵。\n</text>
+</view>
+</swiper-item>
+ 
+
+</swiper>
