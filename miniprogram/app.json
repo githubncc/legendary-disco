@@ -1,62 +1,67 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/Learnunitone/index",
-    "pages/Learnunittwo/index",
-    "pages/Learnunitthree/index",
-    "pages/Learnunitfour/index",
-    "pages/Learnunitfive/index",
-    "pages/Learnunitsix/index",
-    "pages/sumRecord/index",
-    "pages/createCollection/index",
-    "pages/danx/danx",
-    "pages/tianko/tianko",
-    "pages/collection/collection",
-    "pages/star/star"
-  ],
-  "window": {
-    "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": " ",
-    "navigationBarTextStyle": "black"
-  },
-  "tabBar": {
-    "color":"#7A7E83",
-    "selectedColor":  "#3cc51f",
-    "borderStyle": "black",
-    "backgroundColor": "#F7F7F7",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "iconPath": "images/QQ图片20220627165831.png",
-        "selectedIconPath": "images/QQ图片20220627165831.png",
-        "text": "学习新知"
-      },
-      {
-        "pagePath": "pages/sumRecord/index",
-        "iconPath": "images/QQ图片20220627165913.png",
-        "selectedIconPath": "images/QQ图片20220627165913.png",
-        "text": "自我检测"
-      },
-      {
-        "pagePath": "pages/createCollection/index",
-        "iconPath": "images/QQ图片20220627170022.png",
-        "selectedIconPath": "images/QQ图片20220627170022.png",
-        "text": "个人中心"
-      }
-    ]
-  },
-  
-  "sitemapLocation": "sitemap.json",
-  "usingComponents": {
-   
-    "van-grid": "@vant/weapp/grid/index",
-    "van-grid-item": "@vant/weapp/grid-item/index",
-    "van-icon": "@vant/weapp/icon/index",
-    "van-divider": "@vant/weapp/divider/index",
-    "van-empty": "@vant/weapp/empty/index",
-    "van-toast": "@vant/weapp/toast/index",
-    "van-loading": "@vant/weapp/loading/index"
-  }
+    "pages": [
+        "pages/index/index",
+        "pages/Learnunitone/index",
+        "pages/Learnunittwo/index",
+        "pages/Learnunitthree/index",
+        "pages/Learnunitfour/index",
+        "pages/Learnunitfive/index",
+        "pages/Learnunitsix/index",
+        "pages/textunitone/index",
+        "pages/sumRecord/index",
+        "pages/createCollection/index",
+        "pages/danx/danx",
+        "pages/tianko/tianko",
+        "pages/collection/collection",
+        "pages/star/star",
+        "pages/Tintroduction/index",
+        "pages/libai/index",
+        "pages/xvshishi/index",
+        "pages/score/score"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": " ",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#3cc51f",
+        "borderStyle": "black",
+        "backgroundColor": "#F7F7F7",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "images/QQ图片20220627165831.png",
+                "selectedIconPath": "images/QQ图片20220627165831.png",
+                "text": "学习新知"
+            },
+            {
+                "pagePath": "pages/sumRecord/index",
+                "iconPath": "images/QQ图片20220627165913.png",
+                "selectedIconPath": "images/QQ图片20220627165913.png",
+                "text": "巩固练习"
+            },
+            {
+                "pagePath": "pages/createCollection/index",
+                "iconPath": "images/QQ图片20220627170022.png",
+                "selectedIconPath": "images/QQ图片20220627170022.png",
+                "text": "个人中心"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json",
+    "usingComponents": {
+        "van-button": "@vant/weapp/button/index",
+        "van-grid": "@vant/weapp/grid/index",
+        "van-grid-item": "@vant/weapp/grid-item/index",
+        "van-icon": "@vant/weapp/icon/index",
+        "van-divider": "@vant/weapp/divider/index",
+        "van-empty": "@vant/weapp/empty/index",
+        "van-toast": "@vant/weapp/toast/index",
+        "van-loading": "@vant/weapp/loading/index",
+         "van-image": "@vant/weapp/image/index"
+    }
 }

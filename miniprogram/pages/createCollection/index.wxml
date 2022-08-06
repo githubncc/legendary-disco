@@ -21,7 +21,7 @@
 
               <view style="display:flex; flex-direction:column; height: 150px; padding: 10px; margin-bottom: 10px;margin-top: 20px;">
                 <view style="display: flex; flex: 1;flex-direction: row;align-items: center;">
-                    <button class="button">练习历史</button>
+                    <button class="button" bindtap="score">练习历史</button>
                 </view>
                 <view style="display: flex; flex: 1;flex-direction: row;align-items: center;">
                     <button class="button" bindtap="collection">我的错题</button>
@@ -46,5 +46,3 @@
 <view class="bottom-button">
 <button class="button-click" size="mini" style="width: 300rpx; height: 60rpx; margin: 0rpx;padding: 0rpx; font-size: 30rpx;" open-type="share">分享给好友</button>
 </view>
-
-            

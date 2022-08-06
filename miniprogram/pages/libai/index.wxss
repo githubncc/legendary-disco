@@ -1,0 +1,15 @@
+/* pages/libai/index.wxss */
+.content{
+  margin: 30px;
+  background-color: rgb(206, 241, 241);
+  border-radius: 1%;
+}
+.title{
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+}
+.poet{
+  margin: 0px;
+  height: 100px;
+}

@@ -1,0 +1,43 @@
+<swiper class="container_3" indicator-dots>
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《登鹳雀楼》\n  唐·王之涣\n白日依山尽，\n黄河入海流。\n欲穷千里目，\n更上一层楼。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  站在高楼上，只见夕阳依傍着山峦慢慢沉落，滔滔黄河朝着大海汹涌奔流。想要看到千里之外的风光，那就要再登上更高的一层楼。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  白日：太阳。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  这首诗写诗人在登高望远中表现出来的不凡的胸襟抱负,反映了盛唐时期人们积极向上的进取精神。"白日依山尽"写远景,写山,写的是登楼望见的景色,“黄河入海流"写近景;写水写得景象壮观,气势磅礴。这里,诗人运用极其朴素、极其浅显的语言,既高度形象又高度概括地把进入广大视野的万里河山,"欲穷千里目",写诗人一种无止境探求的愿望,还想看得更远,看到目力所能达到的地方,唯一的办法就是要站得更高些,"更上一层楼”。\n</text>
+</view>
+</swiper-item>
+ 
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《咏鹅》\n  唐·骆宾王\n鹅，鹅，鹅，\n曲项向天歌。\n白毛浮绿水，\n红掌拨清波。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  鹅呀，弯曲着脖子对天高歌。一身雪白的羽毛浮于绿水之.上，红色的脚掌拨动着清澈的水波。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  咏：用诗、词来叙述或描写某一事物。\n  咏鹅：用诗词来赞美鹅。\n  项：颈的后部。这里代指脖子。\n  掌：诗中指鹅的脚掌。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  这首千古流传的咏物诗，没有什么深刻的思想内涵和哲理，而是以清新欢快的语言，抓住事物(鹅)的空出特征来进行描写。写得自然、真切、传神。开头的“鹅、鹅、鹅”不只是模拟鹅的叫声，而且把思维的那种跃动表现出来，融为一体。诗人用三个“鹅”字道出鹅由远至近的欢叫声，让人渐渐看清它“曲项”的外形和“向天歌”的得意神态，再写鹅在水中嬉戏时有声有色的情景，表现出诗人细微入神的观察力。\n</text>
+</view>
+</swiper-item>
+ 
+<swiper-item>
+    <view>
+  <view class="item">
+    <text style="position:relative;" space="emsp">《画》\n  唐·王维\n远看山有色，\n近听水无声。\n春去花还在。\n人来鸟不惊。\n</text>
+  </view>
+</view>
+<view  class="wordsty">
+    <text style="position: relative;" space="emsp">【译文】\n  远看高山色彩明亮，走近一听水却没有声音。春天过去，可是依旧有许多花草争奇斗艳，人走近，可是鸟却依然没有被惊动。\n</text>
+    <text style="position: relative;" space="emsp">【注释】\n  色：颜色，也有景色之意。\n  惊：吃惊，害怕。\n</text>
+    <text style="position: relative;" space="emsp">【赏析】\n  看远处的山往往是模糊的，但画上的山色却很清楚，在近处听流水，应当听到水声，但画.上的流水却无声。在春天盛开的花，随着春天的逝去就凋谢了。而画上的花，不管在什么季节，它都盛开着。人走近停在枝头上的鸟，它就会受惊飞走。但画上的鸟，即使你走近了，它也不会惊飞。全读起来似乎行行违反自然规律，其实正是暗中设谜，写出了画的特点。\n</text>
+</view>
+</swiper-item>
+ 
+ 
+
+</swiper>

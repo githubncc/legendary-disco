@@ -1,0 +1,9 @@
+<!--pages/libai/index.wxml-->
+<view class="title">
+    <image class="poet" mode="heightFix" src="/images/libai.png"></image>
+  </view>
+<view class="content">
+  
+  <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;李白(701年－762年)，字太白，号青莲居士，唐朝浪漫主义诗人，被后人誉为诗仙。
+&nbsp;&nbsp;&nbsp;&nbsp;李白还有“诗侠"、“酒仙"、“谪仙人"等称呼,活跃于盛唐,为杰出的浪漫主义诗人。与杜甫合称"李杜”，为了与另两位诗人李商隐与杜牧即“小李杜”区别，杜甫与李白又合称“大李杜”。被贺知章惊呼为“天上谪仙"。762年病逝，享年61岁。其墓在今安徽当涂。李白存世诗文千余篇，有《李太白集》传世。李白的诗词全集： 《望庐山瀑布》 《静夜思》 《将进酒》 《早发白帝城》等。</text>
+</view>

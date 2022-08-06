@@ -25,7 +25,7 @@ page {
 .power {
   margin-top: 30rpx;
   border-radius: 5px;
-  background-color: rgb(147 179 249);
+  background-color: steelblue;
   width: 93%;
   padding-bottom: 1rpx;
 }
@@ -52,6 +52,7 @@ page {
 .power_info_text {
   display: flex;
   flex-direction: column;
+  color: white;
 }
 
 .power_info_text_title {
@@ -73,6 +74,7 @@ page {
 
 .power_item_title {
   font-size: 30rpx;
+  color: white;
 }
 
 .power_item_icon {

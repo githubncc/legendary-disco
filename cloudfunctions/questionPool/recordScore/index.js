@@ -12,6 +12,7 @@ exports.main = async (event, context) => {
   const {score, userInfo} = event;
 
   const addResult = await db.collection('history')
+
   .add({
     data:{
       openId:userInfo.openId,

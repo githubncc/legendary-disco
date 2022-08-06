@@ -1,0 +1,27 @@
+/* pages/score/score.wxss */
+/* pages/collection/collection.wxss */
+page{
+    background-color: #f7f8fa;
+  
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .content{
+    margin: 20px;
+  }
+  .title{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: #4fc08d;
+  }
+  .record{
+    /* justify-content: center;
+    background-color: rgb(169, 231, 255);
+    border-radius: 1%; */
+    margin:40rpx;
+    background-color: #fff;
+    border-radius: 20rpx;
+    box-shadow: 0 8rpx 12rpx #ebedf0;
+    margin-bottom: 124rpx;
+    padding: 24rpx;
+  }

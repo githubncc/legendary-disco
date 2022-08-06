@@ -33,6 +33,11 @@ Page({
           url: '../star/star',
         })
     },
+    score(){
+      wx.navigateTo({
+        url: '../score/score',
+      })
+  },
     collection(){
         wx.navigateTo({
           url: '../collection/collection',

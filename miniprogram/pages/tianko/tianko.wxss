@@ -1,1 +1,22 @@
 /* pages/tianko/tianko.wxss */
+.box{
+  margin: 32rpx 32rpx 32rpx 32rpx;
+  /* background: #4193FF; */
+  border: steelblue;
+  font-size: 15px;
+}
+.ans-btn {
+    margin: 120rpx 32rpx 32rpx 32rpx;
+    opacity: 0.5;
+    background: #4193FF;
+    border-radius: 6px;
+    text-align: center;
+    height: 92rpx;
+    line-height: 92rpx;
+    font-family: 'PingFangSC-Regular';
+    font-size: 15px;
+    color: #FFFFFF;
+  }
+  .ans-btn-active {
+    opacity: 1;
+  }

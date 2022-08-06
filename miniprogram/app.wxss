@@ -6,7 +6,7 @@
     align-items: center;
     box-sizing: border-box;
   } 
-  
+
   button {
     background: initial;
   }

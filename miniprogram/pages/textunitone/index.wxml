@@ -1,0 +1,186 @@
+<!-- pages/danx/danx.wxml
+ <text>pages/danx/danx.wxml</text>
+<view class="page-body">
+  <view class="page-section">
+    <view class="page-section-title">默认样式</view>
+    <label class="radio">
+      <radio value="r1" checked="true"/>选中
+    </label>
+    <label class="radio">
+      <radio value="r2" />未选中
+    </label>
+  </view>
+
+
+  <view class="page-section">
+    <view class="page-section-title">推荐展示样式</view>
+    <view class="weui-cells weui-cells_after-title">
+      <radio-group bindchange="radioChange">
+        <label class="weui-cell weui-check__label" wx:for="{{items}}" wx:key="{{item.value}}">
+
+          <view class="weui-cell__hd">
+            <radio value="{{item.value}}" checked="true"/>
+          </view>
+          <view class="weui-cell__bd">{{item.name}}</view>
+        </label>
+      </radio-group>
+    </view>
+  </view>
+</view>  -->
+
+<wxs module="tool">
+function getAnswerClass(untext){
+  var isCorrect = untext.answer.sort().join() === untext.userAnswer.sort().join();
+  return isCorrect ? "text-success" : "text-error";
+}
+function getItemClass(untext, item){
+  // 用户还未回答，不展示答案
+  if(!untext.userAnswer){
+    return "options-item";
+  }
+
+  var userChecked = untext.userAnswer.indexOf(item.value) !== -1;
+  var isCorrect = untext.answer.indexOf(item.value) !== -1;
+
+  if(!untext.showAnswer){ // 不展示答案
+    if(userChecked){ // 选中当前选项
+      return "options-item_checked"
+    }else{ // 用户未选中当前选项
+      return "options-item"
+    }
+  }else{ // 需要展示答案
+    if(userChecked){ // 选中当前选项
+      if(isCorrect){ // 是正确答案
+        return "options-item_checked"
+      }else{// 是错误答案
+        return "options-item_error"
+      }
+    }else{
+      if(isCorrect){ // 是正确答案
+        if(untext.type === 'checkbox'){ // 多选题提示未选择
+          return "options-item_missing"
+        }else{
+          return "options-item_correct"
+        }
+      }else{// 是错误答案
+        return "options-item"
+      }
+    }
+
+  }
+}
+module.exports = {
+  getAnswerClass:getAnswerClass,
+  getItemClass:getItemClass,
+}
+</wxs>
+
+<block wx:if="{{!finish}}">
+  <view class="card">
+    <view class="info">
+      <text class="hilight-text">{{currentIndex + 1}}</text>
+      /{{total}}
+      <text class="hilight-text">【{{untext.typeText}}】</text>
+    </view>
+    <view class="untext-con">
+      <view class="untext-title">{{untext.title}}</view>
+      <view class="untext-options">
+        <view 
+          wx:for="{{untext.options}}" 
+          wx:key="value" 
+          bindtap="onItemClick"
+          class="{{tool.getItemClass(untext, item)}}" 
+          data-value="{{item.value}}"
+        >
+          {{item.value}}. {{item.text}}
+        </view>
+      </view>
+    </view>
+
+    <view wx:if="{{ untext.userAnswer && !untext.showAnswer}}">
+      <van-button round block color="#4fc08d" bindtap="onShowAnswer" type="primary">对答案</van-button>
+    </view>
+
+    <view wx:if="{{untext.showAnswer && untext.userAnswer}}" class="desc-block">
+      <view class="answer-row">
+        <view>
+          你的答案：
+          <text class="{{tool.getAnswerClass(untext)}}">{{untext.userAnswer}}</text>
+        </view>
+        <view>
+          正确答案：
+          <text class="text-success">{{untext.answer}}</text>
+        </view>
+      </view>
+      <view class="desc-con">
+        <view>解析：</view>
+        {{untext.desc}}
+      </view>
+    </view>
+  </view>
+  <view class="btn-row">
+    <van-button bindtap="goPrev" round type="primary" size="small" color="#4fc08d">
+      <van-icon name="arrow-left" />
+      上一题
+    </van-button>
+    <van-button wx:if="{{untext.starred}}" bindtap="removeStar" round type="primary" size="small" color="#4fc08d">
+      <van-icon name="star" />
+      已收藏
+    </van-button>
+    <van-button wx:else bindtap="addStar" round type="primary" size="small" color="#4fc08d">
+      <van-icon name="star-o" />
+      收藏
+    </van-button>
+
+    <van-button wx:if="{{currentIndex + 1 == total}}" bindtap="goResult" round type="primary" size="small" color="#4fc08d">
+      完成
+    </van-button>
+    <van-button wx:else bindtap="goNext" round type="primary" size="small" color="#4fc08d">
+      下一题
+      <van-icon name="arrow" />
+    </van-button>
+  </view>
+</block>
+<block wx:else>
+  <!-- <view class="user-info">
+    <open-data type="userAvatarUrl" class="avatar" />
+    <open-data type="userNickName" class="nick-name" />
+  </view>
+
+  <van-divider /> -->
+
+  <view class="block">
+    <view class="result-name">答题结果</view>
+    <view class="result-desc">共 {{total}} 题，满分 100 分</view>
+  </view>
+  <view class="block">
+    <view class="result-score">{{score}}分</view>
+  </view>
+  <view class="block">
+    <view class="result-detail">
+      <view>
+        <view class="result-green">{{correctCount }} 题</view>
+        <view>答对</view>
+      </view>
+      <view>
+        <view class="result-red">{{wrongCount }} 题</view>
+        <view>答错</view>
+      </view>
+      <view>
+        <view class="result-green">{{score}} %</view>
+        <view>正确率</view>
+      </view>
+    </view>
+  </view>
+
+
+  <van-divider />
+
+  <view class="block" style="text-align: center;">
+    <van-button bindtap="gotoCollection" round type="primary" custom-style="width: 50%;">查看错题</van-button>
+  </view>
+  <view class="block" style="text-align: center;">
+    <van-button bindtap="goHome" plain round hairline type="info" custom-style="width: 50%;">返回主页</van-button>
+  </view>
+
+</block>

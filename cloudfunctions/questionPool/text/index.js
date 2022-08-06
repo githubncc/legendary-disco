@@ -10,7 +10,7 @@ const db = cloud.database();
  * @param {object} event 
  */
 async function getPageData(event){
-  const queryResult = await db.collection('question')
+  const queryResult = await db.collection('untext')
   .skip((event.page - 1) * event.size)
   .limit(event.size)
   .get();
@@ -20,7 +20,7 @@ async function getPageData(event){
     return {
       errCode:0,
       errMsg:errMsg,
-      questionList:data,
+      untextList:data,
     }
   }else{
     return {
@@ -36,7 +36,7 @@ async function getPageData(event){
  * @param {object} event 
  */
 async function getRandomList(event){
-  const queryResult = await db.collection('question')
+  const queryResult = await db.collection('untext')
   .aggregate()
   .sample({
     size: event.size
@@ -50,7 +50,7 @@ async function getRandomList(event){
     return {
       errCode:0,
       errMsg:errMsg,
-      questionList:list,
+      untextList:list,
     }
   }else{
     return {

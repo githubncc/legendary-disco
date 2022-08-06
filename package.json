@@ -1,8 +1,20 @@
 {
   "dependencies": {
     "@vant/weapp": "^1.10.3",
+    "dayjs": "^1.11.3",
     "md5": "^2.3.0",
     "vant-weapp": "^0.5.29",
+    "weui-miniprogram": "^1.2.3",
     "wx-server-sdk": "^2.6.3"
-  }
+  },
+  "name": "miniprogram-1",
+  "description": "这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
 }

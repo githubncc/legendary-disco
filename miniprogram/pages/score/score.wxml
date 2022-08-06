@@ -1,0 +1,21 @@
+<!--pages/score/score.wxml-->
+<!-- <wxs module="tool"> -->
+<view class="content">
+<view class="title">
+  <text>历史成绩</text>
+</view>
+
+  <view class="record">
+    <!-- <view wx:for="{{list}}" class="item"> -->
+      <!-- <view wx:for="{{list}}" wx:for-index="idx" wx:for-item="item"> -->
+<!-- <view>答题时间：{{item.createTime}}</view>
+<view>分数:{{item.score}}</view> -->
+<view>答题时间：{{createTime}}</view>
+<view>分数:{{score}}分</view>
+<!-- </view> -->
+</view>
+
+</view>
+
+   
+<!-- <van-toast id="van-toast" /> -->

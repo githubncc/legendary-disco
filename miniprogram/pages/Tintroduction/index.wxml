@@ -1,0 +1,14 @@
+<!--pages/Tintroduction/index.wxml-->
+<view class="content">
+<view class="title">
+  <text>唐代诗人简介</text>
+</view> 
+<view class="divLine"></view>
+<view>
+<view style="margin: 16px;">
+  <image class="poet" mode="heightFix" src="/images/libai.png"></image>
+<text>李白</text>
+</view>
+<button class="btn" bindtap="libai">点击了解</button>
+</view>
+</view>

@@ -1,2 +1,14 @@
 <!--pages/tianko/tianko.wxml-->
-<text>pages/tianko/tianko.wxml</text>
+<!-- <view>填空题</view> -->
+<view class="box">
+  <component question="{{question}}"
+             bind:CompletionEvent="fnGetChildParamEvent"></component>
+
+<view class="ans-btn {{isBtnActive ? 'ans-btn-active': ''}}" 
+        wx:if="{{!isShowNext}}"
+        bindtap="fnSave">确认</view>
+<view class="ans-btn ans-btn-active" 
+        wx:else 
+        bindtap="fnToNext">下一题</view>
+
+</view>
